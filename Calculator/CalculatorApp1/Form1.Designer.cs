@@ -2,6 +2,7 @@
 
 namespace CalculatorApp1
 {
+    [System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
     partial class Form1
     {
         /// <summary>
