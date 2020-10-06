@@ -3,6 +3,7 @@ using System.Windows.Forms;
 
 namespace CalculatorApp1
 {
+    [System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
     static class Program
     {
         /// <summary>
