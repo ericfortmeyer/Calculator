@@ -21,7 +21,7 @@ namespace CalculatorTests.Commands
             Assert.That(actualResult, Is.EqualTo(expectedResult));
 
         }
-        [Test(TestOf =typeof(DivideCommand)), TestCase(0)]
+        [Test(TestOf = typeof(DivideCommand)), TestCase(0)]
         public void Throws_Division_by_zero_exeception_when_given_divisor_is_zero(double zero_as_divisor)
         {
             void shouldThrow() => new DivideCommand(1).Execute(zero_as_divisor);
